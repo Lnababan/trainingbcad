@@ -4,8 +4,8 @@ Feature: User try post photo to Instagram
   @instagram
   Scenario: User try post photo to Instagram
     Given user in login page instagram
-    When user input username "naskahcerita"
-    And user input password "261706lusi"
+    When user input username "trialbcad"
+    And user input password "@29Maret2023"
     And user loggedin to instagram
     And user click add post
     And user choose photo from directory
